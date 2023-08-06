@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+html body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.for_page {
+    flex: 1 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+button:focus {
+    box-shadow: none;
+}
+
+.for_page a {
+    text-decoration: none;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.header {
+    padding-top: 19px;
+    position: relative;
+    z-index: 2;
+}
+
+.nav  ul{
+    list-style: none;
+}
+.nav ul li a {
+    display: block;
+    margin-right: 46px;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color:#FED097;
+}
+
+.nav ul li:last-child a {
+    margin-right: 0;
+}
+
+.banner {
+    padding-top: 396px;
+    padding-bottom: 50px;
+    background:  url(../img/banner.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    margin-top: -71px;
+
+}
+ 
+.text_banner h1 {
+    padding-bottom: 74px;
+    font-weight: 400px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 78px;
+    line-height: 81px; 
+}
+
+.banner_btn {
+    display: block;
+    background: #225B93;
+    height: 54px;
+    text-align: center;
+    width: 170px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    padding: 15px 0;
+    border-radius: 27px;
+}
+
+.banner_btn:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background: black;
+}
+
+.card-head {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.card-head svg {
+    transition: all ease 0.5s;
+}
+
+.card-head:hover svg {
+    transform: scale(1.2);
+}
+
+.card_count {
+    background: #FED097;
+    padding: 3px ;
+    font-weight: 400;
+    font-size: 15px;
+    min-width: 20px;
+    line-height: 17px;
+    text-align: center;
+    color: #031622;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    left: 19px;
+    z-index: -1;
+}
+
+.info {
+    background: #08263F;
+    padding-top: 141px;
+    padding-bottom: 135px;
+}
+
+.box_info h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: center;
+    color: #FED097;
+    padding-bottom: 29px;
+}
+
+.info p {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.prom {
+    background: #EDF3F6;
+    padding-top: 68px;
+    padding-bottom: 90px;
+}
+
+
+.prom_box img {
+    display: block;
+    margin: 0 auto 20px;
+
+}
+
+.prom .sub_title {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.prom_box .title_prom {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 35px;
+    color: #031622;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.prom_box .text_prom {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #031622;
+}
+
+.close_menu,
+.responsive {
+    display: none;
+}
+
+.our_product {
+    padding-top: 93px;
+    padding-bottom: 180px;
+}
+
+.our_product .smallText {
+    font-weight: 400;
+    font-size: 19px;
+    color: #225B93;
+    padding-bottom: 40px;
+}
+
+.our_product .bigText {
+    font-weight: 400;
+    font-size: 36px;
+    color: #031622;
+    padding-bottom: 47px;
+}
+
+.first_box_product {
+    background: url(../img/Whitening.jpg) no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box_child_first_title {
+    font-weight: 400;
+    font-size: 45px;    
+    color: #FFFFFF;
+    margin-bottom: 53px;
+}
+
+.box_child_first_btn {
+    display: block;
+    width: 170px;
+    height: 54px;
+    background: #225B93;
+    border-radius: 27px;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+.box_child_second_btn:hover,
+.box_child_first_btn:hover {
+    text-decoration: none;
+    background: black;
+    color: #ffffff;
+}
+
+ .our_product .second_box_product {
+    background: rgba(158, 207, 230, 0.49);
+    padding: 68px 40px 40px 40px;
+    height: 500px;
+}
+
+.box_child_second_title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #031622;
+}
+
+.box_child_second_price {
+    color: rgba(8, 38, 63, 0.6);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.box_child_second img {
+     display: block;
+     margin: 0 auto;
+     padding-bottom: 30px;
+}
+
+.box_child_second_btn {
+    display: block;
+    background: #225B93;
+    border-radius: 27px;
+    height: 54px;
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.our_product_row {
+    margin-bottom: 80px;
+} 
+
+.first_box_product1 {
+    background: url(../img/Refills.png) no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.multitask {
+    padding: 131px;
+    background: #EDF3F6;
+    text-align: center;
+}
+
+.multitask .multitask_info {
+    padding-top: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #031622;
+}
+
+.customer {
+    padding-top: 190px;
+}
+
+
+.proven {
+    position: relative;
+}
+
+.customer .text_proven {
+    background: #EDF3F6;
+    padding: 81px 50px 20px 50px;
+    max-width: 418px;
+    position: absolute;
+    right: 200px;
+    bottom: 35px;
+}
+
+
+.customer .customer_btn {
+    display: block;
+    border: 1px solid #031622;
+    border-radius: 27px;
+    height: 54px;
+    width: 170px;
+    text-align: center;
+    padding: 13px 0;
+    color: #031622;
+    text-decoration: none;
+    margin-top: 109px;
+}
+
+.customer .customer_btn:hover {
+    border: 2px solid #031622;
+    transition: all ease 0.2s;
+}
+
+.customer .risk {
+    padding-top: 275px;
+    padding-bottom: 115px;
+    position: relative;
+}
+
+.customer .text_risk h2,
+.customer  .text_proven h2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #031622;
+    padding-bottom: 50px;
+    
+}
+
+.customer .text_risk p,
+.customer .text_proven p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #031622;
+}
+
+ .risk .text_risk {
+    background: #FBEED7;
+    padding: 81px 50px 20px 50px;
+    height: 480px;
+    width: 418px;
+}
+
+.riskImg {
+    position: absolute;
+    left: 230px;
+    top: -78px;
+    z-index: -1;
+}
+
+.footer {
+    padding-top: 45px;
+    background: #08263F;
+    color: #ffffff;
+}
+
+.footer h2 {
+    color: #FED097;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.footer .footer_items {
+    padding-top: 100px;
+}
+
+.footer .footer_items ul {
+    list-style-type: none;
+}
+
+.footer .footer_items ul li {
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.footer .footer_items a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer .footer_items a:hover {
+    color: #FED097;
+}
+
+.footer .footer_items .form h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    padding-bottom: 40px;
+}
+
+.footer .footer_items .form input {
+    border: 0;
+    border-bottom: solid 1px white;
+    text-decoration: none;
+    background: transparent;
+    width: 350px;
+   
+}
+
+.footer .footer_items .form input:focus {
+    color: #ffffff;
+    outline: none;
+}
+
+.footer .footer_items .form_btn {
+    width: 171px;
+    height: 54px;
+    border-radius: 27px;
+    margin-top: 29px;
+    margin-bottom: 50px;
+    border: 1px solid #FFFFFF;
+    background: none;
+    color: #ffffff;
+    transition: all ease 0.2s;
+
+}
+
+.footer .footer_items .form_btn:hover {
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.footer .sochial_icons img {
+    padding-right: 24px;
+    transition: all ease 0.5s;
+}
+
+.footer .sochial_icons img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.forpage {
+    flex: 1 0 auto;
+    font-family: 'Gilroy';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #828282;
+    transition: ease all 0.5s;
+
+    &:hover {
+        color: #070707;
+    }
+}
+
+header {
+    position: relative;
+}
+

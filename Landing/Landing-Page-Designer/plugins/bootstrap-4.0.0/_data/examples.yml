@@ -1,0 +1,55 @@
+- category: Custom components
+  desc: "Brand new components and templates to help folks quickly get started with Bootstrap and demonstrate best practices for adding onto the framework."
+  examples:
+    - name: Album
+      desc: "Simple one-page template for photo galleries, portfolios, and more."
+    - name: Pricing
+      desc: "Example pricing page built with Cards and featuring a custom header and footer."
+    - name: Checkout
+      desc: "Custom checkout form showing our form components and their validation features."
+    - name: Product
+      desc: "Lean product-focused marketing page with extensive grid and image work."
+    - name: Cover
+      desc: "A one-page template for building simple and beautiful home pages."
+    - name: Carousel
+      desc: "Customize the navbar and carousel, then add some new components."
+    - name: Blog
+      desc: "Magazine like blog template with header, navigation, featured content."
+    - name: Dashboard
+      desc: "Basic admin dashboard shell with fixed sidebar and navbar."
+    - name: Sign-in
+      desc: "Custom form layout and design for a simple sign in form."
+    - name: Sticky footer
+      desc: "Attach a footer to the bottom of the viewport when page content is short."
+    - name: Sticky footer navbar
+      desc: "Attach a footer to the bottom of the viewport with a fixed top navbar."
+
+- category: Framework
+  desc: "Examples that focus on implementing uses of built-in components provided by Bootstrap."
+  examples:
+    - name: "Starter template"
+      desc: "Nothing but the basics: compiled CSS and JavaScript."
+    - name: Grid
+      desc: "Multiple examples of grid layouts with all four tiers, nesting, and more."
+    - name: Jumbotron
+      desc: "Build around the jumbotron with a navbar and some basic grid columns."
+
+- category: Navbars
+  desc: "Taking the default navbar component and showing how it can be moved, placed, and extended."
+  examples:
+    - name: Navbars
+      desc: "Demonstration of all responsive and container options for the navbar."
+    - name: Navbar static
+      desc: "Single navbar example of a static top navbar along with some additional content."
+    - name: Navbar fixed
+      desc: "Single navbar example with a fixed top navbar along with some additional content."
+    - name: Navbar bottom
+      desc: "Single navbar example with a bottom navbar along with some additional content."
+
+- category: Experiments
+  desc: "Examples that focus on future-friendly features or techniques."
+  examples:
+    - name: Floating labels
+      desc: "Beautifully simple forms with floating labels over your inputs."
+    - name: Offcanvas
+      desc: "Turn your expandable navbar into a sliding offcanvas menu."

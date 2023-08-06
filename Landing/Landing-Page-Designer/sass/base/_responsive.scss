@@ -1,0 +1,257 @@
+@media (min-width: 1200px) {
+    .forpage {
+        .container {
+            max-width: 1445px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .banner {
+
+        .designerNameMain {
+
+            .designerName {
+
+                h2 {
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+
+
+
+
+    .skillsMain {
+
+        .downEl {
+            padding-top: 100px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .nav {
+
+        .nav_menu {
+
+            li {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .skillsMain {
+
+        .skill_box {
+            padding-top: 100px;
+
+        }
+
+        .firstEl {
+            padding: 0;
+        }
+    }
+
+}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 575px) {}
+
+@media (max-width: 500px) {
+    .designer {
+        display: contents;
+    }
+    .header {
+
+        .responsiveBtn {
+            display: block;
+            // padding-right: 28px;
+        }
+
+        .close_menu {
+            display: block;
+            position: absolute;
+            top: 66px;
+            right: 28px;
+            cursor: pointer;
+        }
+
+        hr {
+            display: none;
+        }
+
+        .nav {
+            padding-top: 0;
+
+            .responsiveMenu {
+                display: none;
+                flex-direction: column;
+                position: fixed;
+                padding: 66px 0 632px 26px;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100vh;
+                background: white;
+                z-index: 1;
+
+                li {
+                    font-family: 'Gilroy';
+                    font-weight: bold;
+                    font-size: 34px;
+                    line-height: 42px;
+                    color: #090909;
+                    padding-bottom: 68px;
+                }
+
+
+            }
+
+            .nav_menu {
+                display: none;
+            }
+        }
+
+    }
+
+
+
+    .banner {
+
+        .languageRotate {
+            display: none;
+        }
+
+        .designerNameMain {
+            padding-left: 26px;
+            .designerName {
+                h2 {
+                    font-size: 47px;
+                    line-height: 58px;
+                    font-weight: bold;
+                    padding-bottom: 23px;
+
+                }
+            }
+        }
+        .designerInfoMain {
+            padding-left: 26px;
+            max-width: 100%;
+        }
+
+        .designerBanner {
+            display: none;
+        }
+
+        .designerBannerRes {
+            display: block;
+            text-align: center;
+            padding-top: 37px;
+
+            img {
+                width: 95%;
+            }
+        }
+    }
+
+    .aboutMain {
+        .aboutBlock {
+            .aboutMe {
+                padding: 81px 50px 76px 50px;
+
+            }
+        }
+    }
+
+    .skillsMain {
+        padding: 83px 0 110px 0;
+
+        .sub_title {
+            h2 {
+                padding-bottom: 50px;
+            }
+
+            p {
+                padding-bottom: 71px;
+            }
+        }
+    }
+
+    .portfolioMain {
+
+        .sub_title {
+            padding-bottom: 65px;
+        }
+
+        img {
+            width: 93%;
+        }
+
+        .reebokBlock,
+        .braunBlock {
+            padding-top: 75px;
+        }
+    }
+    .contactsMain {
+        padding: 82px 30px 90px 30px;
+
+        .contactsBtn {
+            width: 305px;
+        }
+        .sochialBlock {
+            padding-top: 48px;
+            
+            p {
+                font-size: 18px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .contactsMain {
+
+        .sochialBlock {
+
+            a {
+                padding-left: 41px;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .contactsMain {
+
+        .contactsBtn {
+            width: 285px;
+        }
+
+        .sochialBlock {
+
+            a {
+                padding-left: 35px;
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .contactsMain {
+
+        .contactsBtn {
+            width: 230px;
+        }
+
+        .sochialBlock {
+
+            a {
+                padding-left: 18px;
+            }
+        }
+    }
+}

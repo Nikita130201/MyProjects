@@ -1,0 +1,53 @@
+.header {
+
+    .responsiveBtn {
+        display: none;
+        padding-top: 20px;
+        text-align: -webkit-right;
+
+
+        span {
+            cursor: pointer;
+            width: 33px;
+            height: 4px;
+            background: black;
+            display: block;
+
+            &:nth-child(1) {
+                transform: translateY(-4px);
+            }
+
+            &:nth-child(3) {
+                transform: translateY(4px);
+            }
+        }
+
+
+    }
+
+    .close_menu {
+        display: none;
+    }
+
+    .nav {
+        padding-top: 33px;
+        padding-right: 25px;
+
+        .nav_menu {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+
+            li {
+                list-style-type: none;
+                font-size: 18px;
+                line-height: 22px;
+                font-weight: bold;
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

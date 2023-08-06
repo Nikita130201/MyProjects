@@ -1,0 +1,31 @@
+.skillsMain {
+padding: 91px 0 110px 0;
+
+    .sub_title {
+        text-align: center;
+       
+
+        h2 {
+            padding-bottom: 69px;
+            font-size: 34px;
+            line-height: 42px;
+            text-align: center;
+            color: #070707;
+            font-weight: bold;
+        }
+
+        p {
+            padding-bottom: 84px;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #070707;
+            font-weight: 500;
+        }
+    }
+
+    .skill_box {
+        display: flex;
+        justify-content: center;
+    }
+}

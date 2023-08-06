@@ -1,0 +1,921 @@
+@media (min-width: 1200px) {
+    .for_page .container {
+        max-width: 1920px;
+    }
+}
+
+@media (max-width: 1780px) {
+
+    .nav .navbar li,
+    .nav2 .navbar2 li {
+        font-size: 16px;
+    }
+
+    .logo img {
+        max-width: 80%;
+    }
+
+    .cart .cart_btn {
+        font-size: 16px;
+    }
+
+    .nav2 {
+        padding-top: 21px;
+    }
+
+    .catalogBeds .bedsNames {
+        font-size: 22px;
+    }
+
+    .catalogBeds .bedsText {
+        font-size: 22px;
+    }
+
+    .catalogBeds .bedsTextRed {
+        font-size: 22px;
+    }
+
+    .owl-carousel .owl-nav.disabled .owl-prev {
+        top: 135px;
+    }
+}
+
+@media (max-width: 1650px) {
+    .logo img {
+        max-width: 75%;
+    }
+
+    .nav .navbar li,
+    .nav2 .navbar2 li {
+        font-size: 16px;
+    }
+
+    .advantages .owl-carousel .item1 h2,
+    .advantages .owl-carousel .item2 h2,
+    .advantages .owl-carousel .item3 h2 {
+        font-size: 25px;
+    }
+
+    .advantages .owl-carousel .item2 .reliability_text p {
+        font-size: 16rpx;
+    }
+
+    .owl-carousel .owl-nav.disabled .owl-next,
+    .owl-carousel .owl-nav.disabled .owl-prev {
+        top: 120px;
+    }
+}
+
+@media (max-width:1466px) {
+
+    .banner .ornella,
+    .banner .ornella::before {
+        height: 580px;
+    }
+
+    .cart .cart_btn {
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .nav .navbar li,
+    .nav2 .navbar2 li {
+        font-size: 14px;
+    }
+
+    .sochial_block .phone_numb {
+        padding-left: 27px;
+    }
+    .slideOne .owl-nav {
+        
+        bottom: 30px;
+        left: 190px;
+    }
+    .advantages .owl-carousel .item1 h2,
+    .advantages .owl-carousel .item2 h2,
+    .advantages .owl-carousel .item3 h2 {
+        font-size: 26px;
+    }
+
+    .advantages .owl-carousel .item2 .reliability_text p {
+        font-size: 15px;
+    }
+
+    .owl-carousel .owl-nav.disabled .owl-next,
+    .owl-carousel .owl-nav.disabled .owl-prev {
+        top: 100px;
+    }
+
+    .catalog {
+        padding-top: 0;
+    }
+    .aboutImg img {
+        max-width: 75%;
+    }
+    .about_us .about_text {
+        top: 241px;
+    }
+    .questions .question_form {
+        top: 170px;
+    }
+    .questionImg {
+        max-width: 90%;
+    }
+
+    .footer-other .other-items,
+    .footer-catalog .catalog-items {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:1300px) {
+    .logo img {
+        max-width: 65%;
+    }
+
+    .owl-carousel .owl-nav.disabled .owl-next,
+    .owl-carousel .owl-nav.disabled .owl-prev {
+        top: 90px;
+    }
+
+    .owl-carousel .owl-nav.disabled .owl-prev {
+        left: -5px;
+    }
+
+    .owl-carousel .owl-nav.disabled .owl-next {
+        right: -5px;
+    }
+
+    .catalog .catalogFurniture a {
+        font-size: 20px;
+
+    }
+
+    .catalogBeds .bedsTextRed,
+    .catalogBeds .bedsText,
+    .catalogBeds .bedsNames {
+        font-size: 18px;
+
+    }
+
+    .catalogBeds .catalogBeds_text s {
+        font-size: 16px;
+    }
+
+    .catalogBeds .atlas .hit,
+    .catalogBeds .chester .hit {
+        width: 116px;
+        font-size: 16px;
+
+    }
+
+    .catalogBeds .atlas .prom,
+    .catalogBeds .chester .prom {
+        width: 65px;
+        font-size: 16px;
+    }
+
+    .footer .lastEl {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width:1250px) {
+    .header .logo {
+        text-align: end;
+    }
+
+    .logo img {
+        max-width: 65%;
+    }
+
+    .nav .navbar {
+        position: absolute;
+        right: -115vh;
+        top: 0;
+        text-align: center;
+        height: 100vh;
+        width: 100vh;
+        background: #44C697;
+        padding: 120px 50px 30px 30px;
+        visibility: hidden;
+        transition: transform .5s, visibility .5s;
+        opacity: 0.95;
+    }
+
+    .header_nav2_btn,
+    .header_nav_btn {
+        display: block;
+        z-index: 3;
+    }
+
+    .navMenu {
+        display: flex;
+        justify-content: end;
+    }
+
+    .nav2 .navbar2,
+    .navMenu .navbar {
+        display: block;
+        z-index: 2;
+    }
+
+    .navMenu .navbar li,
+    .nav2 .navbar2 li {
+        padding-bottom: 50px;
+        font-size: 25px;
+    }
+
+    .navMenu .navbar a:hover {
+        color: white;
+    }
+
+    .nav2.open .navbar2 {
+        transform: translateX(100%);
+        visibility: visible;
+    }
+
+    .navMenu.open .navbar {
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+    .nav2 {
+        padding: 0;
+    }
+
+    .nav2 .navbar2 {
+        position: absolute;
+        text-align: center;
+        left: -110vh;
+        top: 0;
+        width: 100vh;
+        height: 100vh;
+        background: #44C697;
+        padding: 80px 50px 30px 30px;
+        visibility: hidden;
+        transition: transform .5s, visibility .5s;
+        opacity: 0.95;
+    }
+
+    .nav2 .navbar2 li a:hover {
+        color: white;
+    }
+
+    .cart .cart_btn {
+        max-width: 170px;
+    }
+
+    .banner .ornella {
+        padding: 64px 63px 101px 63px;
+    }
+
+    .banner .ornella,
+    .banner .ornella::before {
+        height: 480px;
+    }
+
+    .banner .ornella h2 {
+        font-size: 48px;
+    }
+
+    .banner .ornella h3 {
+        font-size: 30px;
+    }
+
+    .banner .ornella p {
+        font-size: 27px;
+    }
+
+    .about_us .about_text {
+        top: 200px;
+    }
+}
+
+@media (max-width:1199px) {
+    .sochial_block {
+        justify-content: space-around;
+    }
+
+    .nav2 .navbar2 {
+        left: -125vh;
+        top: 0;
+        width: 100vh;
+        height: 100vh;
+    }
+
+    .navMenu .navbar li {
+        padding-bottom: 100px;
+        font-size: 50px;
+    }
+
+    .nav2 .navbar2 li {
+        padding-bottom: 100px;
+        font-size: 50px;
+    }
+
+    .nav2.open .navbar2 {
+        transform: translateX(105%);
+    }
+
+    .advantages .advantages_text h2,
+    .catalog h2,
+    .about_us .aboutH h2,
+    .questions .question h2 {
+        font-size: 40px;
+    }
+
+    .advantages .advantages_text h2::before {
+        width: 16px;
+        height: 37px;
+    }
+
+    .about_us .aboutH h2::before {
+        width: 16px;
+        height: 41px;
+    }
+
+    .questions .question h2::before {
+        width: 13px;
+        height: 39px;
+    }
+
+    .advantages .owl-carousel .item1 h2,
+    .advantages .owl-carousel .item2 h2,
+    .advantages .owl-carousel .item3 h2 {
+        font-size: 20px;
+    }
+
+    .advantages .owl-carousel .item2 .reliability_text p {
+        font-size: 14px;
+    }
+
+    .owl-carousel .owl-nav.disabled .owl-next,
+    .owl-carousel .owl-nav.disabled .owl-prev {
+        top: 70px;
+    }
+
+    .for_page .ornella_block {
+        padding-left: 0;
+    }
+
+    .catalog h2::before {
+        width: 15px;
+        height: 34px;
+    }
+
+    .catalog .catalogFurniture a {
+        font-size: 16px;
+
+    }
+
+    .catalogBeds .bedsTextRed,
+    .catalogBeds .bedsText,
+    .catalogBeds .bedsNames {
+        font-size: 16px;
+
+    }
+
+    .catalogBeds .catalogBeds_text s {
+        font-size: 14px;
+    }
+
+    .catalogLast a {
+        font-size: 16px;
+        width: 164px;
+        height: 47px;
+    }
+
+    .about_us .about_text {
+        top: 225px;
+        width: 600px;
+        height: 400px;
+    }
+
+    .about_us .about_text::before {
+        height: 400px;
+    }
+
+    .about_us .about_text span,
+    .about_us .about_text p {
+        font-size: 14px;
+    }
+
+    .questions .question_form {
+        width: 400px;
+        height: 350px;
+        right: 0;
+        top: 180px;
+    }
+
+    .questions .question_form::before {
+        height: 350px;
+    }
+
+    .questions .question_form h3 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .questions .question_form input {
+        width: 300px;
+        height: 30px;
+        margin: 20px 0 20px 0;
+    }
+
+    .questions .question_form button {
+        width: 300px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .questions .question_form p {
+        font-size: 16px;
+    }
+
+    .footer .footer-block1 {
+        height: max-content;
+    }
+
+    .footer .footer-block2 {
+        display: none;
+    }
+}
+
+@media (max-width:991px) {
+    .logo img {
+        max-width: 100%;
+    }
+    .header {
+        padding: 10px 0;
+    }
+    .header .cartBox {
+        padding-right: 5px;
+    }
+
+    .navMenu.open .navbar {
+        transform: translateX(-95%);
+    }
+
+    .banner .ornella {
+        height: 400px;
+        width: 350px;
+        padding: 50px 30px 50px 30px;
+    }
+
+    .banner .ornella::before {
+        height: 400px;
+    }
+
+    .banner .ornella h2 {
+        font-size: 40px;
+    }
+    .banner .ornella h3{
+        font-size: 25px;
+        padding: 22px 0 10px 0;
+    }
+
+    .banner .ornella p {
+        font-size: 23px;
+        padding-bottom: 20px;
+    }
+
+    .banner .ornella a {
+    width: 154px;
+    height: 39px;
+    font-size: 15px;
+    line-height: 39px;
+    }
+
+    .slideOne .owl-nav {
+        left: 136px;
+    }
+
+    .slideTwo .owl-nav button.owl-next,
+    .slideTwo .owl-nav button.owl-prev {
+        display: none;
+    }
+
+    .catalogBeds .bedsTextRed,
+    .catalogBeds .bedsText,
+    .catalogBeds .bedsNames {
+        font-size: 14px;
+
+    }
+
+    .catalogBeds .catalogBeds_text s {
+        font-size: 14px;
+    }
+
+    .catalogBeds .novelty,
+    .catalogBeds .novelty1 {
+        font-size: 14px;
+        width: 80px;
+    }
+
+    .catalogBeds .atlas .hit,
+    .catalogBeds .chester .hit {
+        width: 100px;
+        font-size: 14px;
+
+    }
+
+    .catalogBeds .atlas .prom,
+    .catalogBeds .chester .prom {
+        width: 50px;
+        font-size: 14px;
+    }
+
+    .catalogBeds .veniceAtlas {
+        display: flex;
+    }
+
+    .catalogBeds .atlas {
+        padding: 50px 0 0 30px;
+    }
+
+    .catalogBeds .venice {
+        padding-top: 50px;
+    }
+
+    .about_us .about_text {
+        top: 220px;
+        left: 0px;
+        width: 521px;
+        height: 336px;
+        padding: 22px 5px 0px 13px;
+    }
+
+    .about_us .about_text::before {
+        height: 337px;
+    }
+
+    .aboutImg img {
+        max-width: 77%;
+    }
+
+    .questions .question_form {
+        width: 346px;
+        height: 315px;
+        padding: 22px 0 0 27px;
+        right: 17px;
+        top: 142px;
+    }
+
+    .questions .question_form::before {
+        height: 315px;
+    }
+
+    .footer .footer-logo {
+        max-width: 80%;
+    }
+
+    .footer .footer-block2 {
+        display: none;
+    }
+    .btn_top .back-to-top {
+        left: 11px;
+    }
+}
+
+@media (max-width:767px) {
+    .sochial_text {
+        font-size: 17px;
+    }
+    .header .logo {
+        text-align: center;
+    }
+
+    .logo img {
+        max-width: 75%;
+    }
+
+    .phone_numb {
+        display: none;
+    }
+
+    .header .cart .cart_text {
+        font-size: 14px
+    }
+
+    .sochial_block {
+        justify-content: flex-start;
+    }
+
+    .cart .cart_btn {
+        display: none;
+    }
+
+    .banner .ornella {
+        width: 280px;
+        height: 360px;
+        padding: 50px 50px 50px 30px;
+    }
+
+    .banner .ornella::before {
+        height: 360px;
+    }
+
+    .banner .ornella h2 {
+        font-size: 38px;
+    }
+
+    .banner .ornella h3 {
+        font-size: 24px;
+        padding: 18px 0 10px 0;
+    }
+
+    .banner .ornella p {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    .banner .ornella a {
+        width: 153px;
+        height: 40px;
+        font-size: 15px;
+        line-height: 39px;
+    }
+
+    .banner {
+        background-position: -220px;
+    }
+
+    .slideOne .owl-nav {
+        left: 88px;
+        bottom: 15px;
+    }
+    .catalog .catalogFurniture a {
+        font-size: 14px;
+    }
+
+    .catalog .catalogFurniture img {
+        padding-top: 20px;
+    }
+    .advantages {
+        padding: 75px 38px;
+    }
+    .advantages .advantages_text h2,
+    .catalog h2,
+    .about_us .aboutH h2,
+    .questions .question h2 {
+        font-size: 33px;
+    }
+
+    .advantages .advantages_text h2::before,
+    .catalog h2::before {
+        width: 13px;
+        height: 26px;
+    }
+
+    .catalogBeds .veniceAtlas {
+        display: block;
+    }
+
+    .catalogBeds .atlas {
+        padding: 50px 0 0 0;
+    }
+
+    .catalogBeds .bedsNames.empire {
+        padding-bottom: 50px;
+    }
+
+    .about_us .aboutH h2 {
+        padding: 70px 0 0px 0;
+    }
+
+    .about_us .aboutH h2::before {
+        width: 13px;
+        height: 31px;
+        top: 74px;
+    }
+
+    .about_us .about_text {
+        position: relative;
+        top: 50px;
+        left: 50px;
+        border: solid 2px black;
+    }
+
+    .about_us .about_text::before {
+        top: -2px;
+        right: -17px;
+    }
+
+    .aboutImg img {
+        display: none;
+    }
+
+    .questions {
+        padding: 130px 0 109px 0;
+    }
+
+    .questionImg {
+        max-width: 100%;
+    }
+
+    .questions .question_form {
+        left: 14px;
+        top: 100px;
+    }
+
+    .questions .question h2::before {
+        width: 11px;
+        height: 30px;
+    }
+
+    .btn_top .back-to-top {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media(max-width:600px) {
+    .sochial_text {
+        display: none;
+    }
+
+    .cart .cart_text {
+        display: none;
+    }
+    .header .cartBox  {
+        padding: 0;
+    }
+    .navMenu .navbar li {
+        padding-bottom: 100px;
+        font-size: 25px;
+    }
+
+    .nav2 .navbar2 li {
+        padding-bottom: 100px;
+        font-size: 30px;
+    }
+
+    .navMenu.open .navbar {
+        transform: translateX(-85%);
+    }
+
+    .nav2.open .navbar2 {
+        transform: translateX(90%);
+    }
+    .about_us .about_text {
+        left: 20px;
+        height: 555px;
+        width: 450px
+    }
+
+    .about_us .about_text::before {
+        height: 555px;
+    }
+
+    .questionImg {
+        display: none;
+    }
+
+    .questions .question_form {
+        position: relative;
+        left: 70px;
+        top: 0;
+        border: solid 2px black;
+    }
+
+    .questions .question_form::before {
+        top: -2px;
+        left: -17px;
+    }
+}
+
+@media (max-width:575px) {
+    .banner .ornella {
+        width: 240px;
+        height: 304px;
+        padding: 37px 20px 0 33px;
+    }
+    .banner .ornella h2 {
+        font-size: 34px;
+    }
+    .banner .ornella h3 {
+        font-size: 22px;
+        padding: 10px 0 10px 0;
+    }
+    .banner .ornella p {
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+    .banner .ornella a {
+        width: 130px;
+        height: 32px;
+        font-size: 14px;
+        line-height: 32px;
+    }
+    .slideOne .owl-nav {
+        left: 104px;
+        bottom: 15px;
+    }
+    .slideOne {
+        padding-left: 20px;
+    }
+    .footer-contacts-block {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:500px) {
+    .about_us .about_text {
+        width: 350px;
+        left: 20px;
+    }
+    .footer .footer-block1 {
+        padding: 36px 0 0 23px;
+    }
+    .footer .footer-logo {
+        font-size: 37px;
+    }
+}
+
+@media (max-width:480px) {
+    .header_nav2_btn span,
+    .header_nav_btn span {
+        width: 21px;
+        height: 2px;
+        left: 0;
+    }
+    .header_nav2_btn span:nth-child(1),
+    .header_nav_btn span:nth-child(1) {
+        transform: translateY(-7px);
+    }
+    .header_nav2_btn span:nth-child(3),
+    .header_nav_btn span:nth-child(3) {
+        transform: translateY(7px);
+    }
+    .navMenu.open .navbar {
+        transform: translateX(-88%);
+    }
+    .nav2.open .navbar2 {
+        transform: translateX(98%);
+    }
+    .logo img {
+        max-width: 100%;
+    }
+    .header .cartBox {
+        padding-right: 10px;
+    }
+    .banner {
+        background-position: -291px;
+        padding-bottom: 43px;
+    }
+    .banner .ornella {
+        opacity: 0.7;
+    }
+    .questions .question_form {
+        left: 40px;
+        width: 300px;
+    }
+    .questions .question_form input,
+    .questions .question_form button {
+        width: 240px;
+    }
+    .questions .question_form p {
+        font-size: 14px;
+    }
+    .questions .question_form a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:350px) {
+    .navMenu .navbar li {
+        padding-bottom: 70px;
+        font-size: 25px;
+    }
+
+    .nav2 .navbar2 li {
+        padding-bottom: 60px;
+        font-size: 30px;
+    }
+    .navMenu.open .navbar {
+        transform: translateX(-92%);
+    }
+    .nav2.open .navbar2 {
+        transform: translateX(104%);
+    }
+    .advantages .advantages_text h2, 
+    .catalog h2,
+     .about_us .aboutH h2, 
+     .questions .question h2 {
+        font-size: 30px;
+     }
+    .advantages .owl-carousel .item2 .reliability_text p {
+        line-height: 16px;
+    }
+    .about_us .about_text {
+        width: 297px;
+        left: 10px;
+    }
+    .questions .question_form {
+        left: 20px;
+    }
+    .footer .lastEl {
+        font-size: 14px;
+    }
+}

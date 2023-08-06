@@ -1,0 +1,43 @@
+.portfolioMain {
+    padding: 113px 0 96px 0;
+    background: #F6F6F6;
+
+    img {
+        width: 100%;
+    }
+
+    .reebokBlock,
+    .braunBlock {
+        padding-top: 99px;
+    }
+    .sub_title {
+        text-align: center;
+        padding-bottom: 47px;
+        width: 100%;
+        
+        h2 {
+            font-size: 34px;
+            line-height: 42px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+    .portfolio_box  {
+        text-align: center;
+    }
+
+    p {
+        padding-top: 45px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #070707;
+        font-weight: 500;
+
+    }
+
+
+}

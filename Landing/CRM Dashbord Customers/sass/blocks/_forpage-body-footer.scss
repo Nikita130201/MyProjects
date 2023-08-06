@@ -1,0 +1,37 @@
+.forpage__body-footer {
+    padding-top: 33px;
+    display: flex;
+    justify-content: space-between;
+
+    .forpage__body-footer-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.01em;
+        color: #B5B7C0;
+    }
+
+    .forpage__body-footer-btn {
+       
+        button {
+            display: inline-block;
+            width: 26px;
+            height: 24px;
+            background: #F5F5F5;
+            border: 1px solid #EEEEEE;
+            border-radius: 4px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 100%;
+            letter-spacing: -0.01em;
+
+            &:hover {
+                background: #5932EA;
+                border: 1px solid #5932EA;
+                color: #FFFFFF;
+            }
+        }
+        
+    }
+}

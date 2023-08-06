@@ -1,0 +1,306 @@
+@media (min-width: 1200px) {
+    .for_page .container {
+        max-width: 1282px;
+    }
+}
+
+@media(max-width:1199px) {
+    .footer .footer_items .form input {
+        width: 250px;
+    }
+    .customer .text_proven {
+        right: -88px;
+    }
+    .provenImg {
+        width: 85%;
+    }
+    .riskImg {
+        left: 232px;
+        top: -75px;
+        width: 85%;
+    }
+    .customer .customer_btn {
+       margin-top: 109px;
+    }
+}
+@media(max-width:991px) {
+    .card_res_none,
+ .responsive_none {
+    display: none;
+ }
+ .responsive {
+    display: flex;
+ }
+ .mob_col {
+    display: flex;
+    justify-content: space-between;
+ }
+ .fa-solid, .fas {
+    cursor: pointer;
+    color: #fff;
+    font-size: 35px;
+    margin-left: 40px;
+ }
+ .close_menu:hover,
+.menu_responsive i:hover {
+    opacity: 0.7;
+}
+.banner {
+    padding-top: 200px;
+    margin-top: -71px;
+}
+.container .responsive_none{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+}
+.nav ul {
+    display: flex;
+    padding-top: 60px;
+    flex-wrap: wrap;
+}
+.nav ul li {
+    width: 100%;
+}
+.nav ul li a {
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 33px;
+    font-size: 35px;
+}
+.prom_box {
+    margin-bottom: 30px;
+}
+.close_menu {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 35px;
+    margin-left: 40px;
+    position: absolute;
+    right: 19px;
+    top: 10px;
+}
+.multitask {
+    padding: 30px 0 30px 0;
+}
+.multitask .multitask_info {
+    font-size: 30px;
+}
+.footer .footer_items ul li {
+    font-size: 14px;
+}
+.customer .text_risk h2,
+.customer  .text_proven h2 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    
+}
+.customer .text_proven {
+    padding: 50px 10px 0 10px;
+    height: 480px;
+    width: 318px;
+    height: 350px;
+    right: -70px;
+}
+.customer .text_risk {
+    padding: 50px 10px 0 10px;
+    height: 480px;
+    width: 318px;
+    height: 350px;
+}
+.riskImg {
+    left: 186px;
+    top: -58px;
+}
+.customer .text_risk p,
+.customer .text_proven p {
+    font-size: 14px;
+}
+.customer .customer_btn {
+    margin-top: 60px;
+ }
+}
+@media(max-width:767px) {
+    .prom,
+    .info {
+        padding: 60px 0;
+    }
+     .info p{
+        font-size: 20px;
+        line-height: 33px;
+    }
+    .our_product {
+        padding-bottom: 80px;
+    }
+    .customer {
+        padding-top: 80px;
+    }
+    .multitask{
+            padding: 20px 0 0 0;
+    }
+    .multitask .multitask_info {
+        font-size: 20px;
+    }
+    .first_box_product {
+        background-size: 100%;
+        background-position: 50%;
+    }
+    .first_box_product1 {
+        background-size: 100%;
+        background-position: 50%;
+    }
+    .our_product .bigText {
+        font-size: 31px;
+    }
+    .our_product {
+        padding-top: 69px;
+    }
+     .customer .customer_btn {
+            margin: 71px auto;
+    }
+    .customer .risk {
+        padding-top: 70px;
+    }
+     .customer .text_proven {
+        width: 100%;
+        right: 0px;
+        position: relative;
+        max-width: 90%;
+        margin: -20px auto 0;
+    }
+    .customer .text_risk {
+        padding: 30px 10px 0 10px;
+        width: 100%;
+        height: 318px;
+        position: relative;
+        margin: -113px 30px 0px;
+        max-width: 90%;
+    }
+    .provenImg {
+        width: 100%;
+    }
+    .riskImg {
+        top: -45px;
+        left: 6px;
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer {
+        text-align: center;
+        
+    }
+    .footer h2 {
+        font-size: 20px;
+    }
+    .footer .footer_items {
+        padding-top: 35px;
+    }
+    .footer .footer_items ul li  {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .footer .lastElement {
+        padding-top: 60px;
+    }
+    .footer .footer_items .form h3 {
+        padding-bottom: 10px;
+    }
+    .footer .footer_items .form_btn {
+        display: block;
+        margin:  20px auto;
+    }
+   
+}
+@media(max-width:600px) {
+    .our_product {
+        padding-bottom: 80px;
+    }
+    .customer {
+        padding-top: 80px;
+    }
+    .multitask {
+        padding: 20px 0 0 0;
+    }
+    .multitask .multitask_info {
+        padding-top: 45px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+@media(max-width:500px) {
+    .our_product {
+        padding-bottom: 50px;
+    }
+    .customer {
+        padding-top: 50px;
+    }
+    .multitask {
+        padding: 20px 0 0 0;
+    }
+    .multitask .multitask_info {
+        padding-top: 45px;
+        font-size: 16px;
+    }
+    .customer .risk {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+.riskImg {
+    left: 8px;
+}
+.customer .text_proven {
+right: 35px;
+}
+.customer .customer_btn {
+    margin: 20px auto;
+}
+.customer .text_proven {
+    right: 0px;
+    height: 300px;
+}
+}
+@media(max-width:480px) {
+    .text_banner h1 {
+        padding-bottom: 30px;
+        font-size: 60px;
+        line-height: 64px;
+    }
+    .banner {
+        padding-top: 132px;
+    }
+    .our_product .first_box_product {
+        z-index: 1;
+    }
+    .our_product .first_box_product1 {
+        margin-top: -26px;
+    }
+    .our_product .second_box_product {
+        margin-top: -26px;
+    }
+}
+@media(max-width:400px) {
+    .multitask .multitask_info {
+        padding-top: 21px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .text_banner h1 {
+        padding-bottom: 8px;
+        font-size: 45px;
+        line-height: 53px;
+    }
+    .banner {
+        padding-top: 112px;
+    }
+}
+@media(max-width:350px) {
+.multitask .multitask_info {
+    font-size: 14px;
+    padding: 10px 0 10px 0;
+    line-height: 25px;
+}
+}

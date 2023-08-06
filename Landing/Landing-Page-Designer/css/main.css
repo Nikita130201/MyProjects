@@ -1,0 +1,457 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.forpage {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  font-family: 'Gilroy';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #828282;
+  -webkit-transition: ease all 0.5s;
+  transition: ease all 0.5s;
+}
+a:hover {
+  color: #070707;
+}
+
+header {
+  position: relative;
+}
+
+.header .responsiveBtn {
+  display: none;
+  padding-top: 20px;
+  text-align: -webkit-right;
+}
+.header .responsiveBtn span {
+  cursor: pointer;
+  width: 33px;
+  height: 4px;
+  background: black;
+  display: block;
+}
+.header .responsiveBtn span:nth-child(1) {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+}
+.header .responsiveBtn span:nth-child(3) {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+.header .close_menu {
+  display: none;
+}
+.header .nav {
+  padding-top: 33px;
+  padding-right: 25px;
+}
+.header .nav .nav_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header .nav .nav_menu li {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+}
+.header .nav .nav_menu li a {
+  text-decoration: none;
+}
+
+.banner .designerNameMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.banner .designerNameMain .designerName h2 {
+  font-size: 47px;
+  line-height: 59px;
+  color: #070707;
+  font-weight: bold;
+}
+.banner .designerInfoMain .designerInfo {
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  font-weight: 500;
+}
+.banner .languageMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding: 0;
+}
+.banner .languageMain .languageRotate {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  width: 69px;
+  line-height: 150px;
+}
+.banner .languageMain .languageRotate a {
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  text-decoration: none;
+  font-weight: bold;
+}
+.banner .languageMain .languageRotate a:hover {
+  color: #070707;
+}
+.banner .languageMain .languageRotate a:focus {
+  color: #070707;
+}
+.banner .designerBanner img {
+  width: 100%;
+  padding-top: 31px;
+}
+.banner .designerBannerRes {
+  display: none;
+}
+
+.aboutMain {
+  padding-top: 105px;
+  text-align: center;
+}
+.aboutMain .aboutBlock {
+  padding: 0;
+}
+.aboutMain .aboutBlock .aboutMe {
+  background: #F6F6F6;
+  padding: 120px 0 100px 0;
+}
+.aboutMain .aboutBlock .aboutMe h2 {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+.aboutMain .aboutBlock .aboutMe p {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  font-weight: 500;
+}
+.aboutMain .aboutBlock .aboutMe .aboutMe_text {
+  padding: 30px 0 30px 0;
+}
+
+.skillsMain {
+  padding: 91px 0 110px 0;
+}
+.skillsMain .sub_title {
+  text-align: center;
+}
+.skillsMain .sub_title h2 {
+  padding-bottom: 69px;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  font-weight: bold;
+}
+.skillsMain .sub_title p {
+  padding-bottom: 84px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  font-weight: 500;
+}
+.skillsMain .skill_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolioMain {
+  padding: 113px 0 96px 0;
+  background: #F6F6F6;
+}
+.portfolioMain img {
+  width: 100%;
+}
+.portfolioMain .reebokBlock,
+.portfolioMain .braunBlock {
+  padding-top: 99px;
+}
+.portfolioMain .sub_title {
+  text-align: center;
+  padding-bottom: 47px;
+  width: 100%;
+}
+.portfolioMain .sub_title h2 {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  font-weight: bold;
+}
+.portfolioMain .portfolio_box {
+  text-align: center;
+}
+.portfolioMain p {
+  padding-top: 45px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #070707;
+  font-weight: 500;
+}
+
+.contactsMain {
+  padding: 114px 0 123px 0;
+}
+.contactsMain h2 {
+  padding-bottom: 20px;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  font-weight: bold;
+}
+.contactsMain .contactsText {
+  padding-bottom: 30px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  font-weight: 500;
+}
+.contactsMain .contactsBtn {
+  display: block;
+  color: #fff;
+  background: #070707;
+  width: 180.5px;
+  height: 42px;
+  margin: 0 auto;
+  border-radius: 25px;
+  line-height: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+.contactsMain .contactsBtn:hover {
+  background: #828282;
+}
+.contactsMain .sochialBlock {
+  padding-top: 86px;
+}
+.contactsMain .sochialBlock a {
+  padding-left: 62px;
+  text-decoration: none;
+}
+.contactsMain .sochialBlock a:first-child {
+  padding: 0;
+}
+.contactsMain .sochialBlock a img {
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+.contactsMain .sochialBlock a:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.contactsMain .sochialBlock p {
+  padding-top: 45px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  font-weight: 500;
+}
+
+@media (min-width: 1200px) {
+  .forpage .container {
+    max-width: 1445px;
+  }
+}
+@media (max-width: 991px) {
+  .banner .designerNameMain .designerName h2 {
+    font-size: 35px;
+  }
+
+  .skillsMain .downEl {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .nav .nav_menu li {
+    font-size: 16px;
+  }
+
+  .skillsMain .skill_box {
+    padding-top: 100px;
+  }
+  .skillsMain .firstEl {
+    padding: 0;
+  }
+}
+@media (max-width: 500px) {
+  .designer {
+    display: contents;
+  }
+
+  .header .responsiveBtn {
+    display: block;
+  }
+  .header .close_menu {
+    display: block;
+    position: absolute;
+    top: 66px;
+    right: 28px;
+    cursor: pointer;
+  }
+  .header hr {
+    display: none;
+  }
+  .header .nav {
+    padding-top: 0;
+  }
+  .header .nav .responsiveMenu {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: fixed;
+    padding: 66px 0 632px 26px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    z-index: 1;
+  }
+  .header .nav .responsiveMenu li {
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #090909;
+    padding-bottom: 68px;
+  }
+  .header .nav .nav_menu {
+    display: none;
+  }
+
+  .banner .languageRotate {
+    display: none;
+  }
+  .banner .designerNameMain {
+    padding-left: 26px;
+  }
+  .banner .designerNameMain .designerName h2 {
+    font-size: 47px;
+    line-height: 58px;
+    font-weight: bold;
+    padding-bottom: 23px;
+  }
+  .banner .designerInfoMain {
+    padding-left: 26px;
+    max-width: 100%;
+  }
+  .banner .designerBanner {
+    display: none;
+  }
+  .banner .designerBannerRes {
+    display: block;
+    text-align: center;
+    padding-top: 37px;
+  }
+  .banner .designerBannerRes img {
+    width: 95%;
+  }
+
+  .aboutMain .aboutBlock .aboutMe {
+    padding: 81px 50px 76px 50px;
+  }
+
+  .skillsMain {
+    padding: 83px 0 110px 0;
+  }
+  .skillsMain .sub_title h2 {
+    padding-bottom: 50px;
+  }
+  .skillsMain .sub_title p {
+    padding-bottom: 71px;
+  }
+
+  .portfolioMain .sub_title {
+    padding-bottom: 65px;
+  }
+  .portfolioMain img {
+    width: 93%;
+  }
+  .portfolioMain .reebokBlock,
+  .portfolioMain .braunBlock {
+    padding-top: 75px;
+  }
+
+  .contactsMain {
+    padding: 82px 30px 90px 30px;
+  }
+  .contactsMain .contactsBtn {
+    width: 305px;
+  }
+  .contactsMain .sochialBlock {
+    padding-top: 48px;
+  }
+  .contactsMain .sochialBlock p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 480px) {
+  .contactsMain .sochialBlock a {
+    padding-left: 41px;
+  }
+}
+@media (max-width: 400px) {
+  .contactsMain .contactsBtn {
+    width: 285px;
+  }
+  .contactsMain .sochialBlock a {
+    padding-left: 35px;
+  }
+}
+@media (max-width: 320px) {
+  .contactsMain .contactsBtn {
+    width: 230px;
+  }
+  .contactsMain .sochialBlock a {
+    padding-left: 18px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
